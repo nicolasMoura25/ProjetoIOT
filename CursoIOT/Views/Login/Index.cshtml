@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Bem Vindo ao Omega</h2>
+
+<<div class="form-group">
+    @Html.LabelFor(m => m.nome, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.nome, new { @class = "form-control" })
+    </div>
+</div>
+
